@@ -18,19 +18,45 @@
 header {
   z-index: 2; }
 
+.nav-item1_mob, .nav-item2_mob, .nav-item3_mob, .nav-item4_mob, .nav-item5_mob, .nav-item6_mob {
+  display: none; }
+
 @media only screen and (max-width: 991px) {
   .navbar-nav {
-    background: #0f6674;
+    background: #E5E5E5;
     height: 100vh; }
 
   .navbar-collapse {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%; }
 
   .navbar-toggler {
     position: relative;
-    z-index: 1; } }
+    z-index: 1; }
+
+  .navbar-nav li {
+    margin-left: 39px; }
+  .navbar-nav li:first-of-type {
+    margin-top: 42px; }
+
+  .nav-item1_mob, .nav-item2_mob, .nav-item3_mob, .nav-item4_mob, .nav-item5_mob, .nav-item6_mob {
+    display: block; }
+
+  .mob_none {
+    display: none; }
+
+  .nav-item1_mob {
+    margin-bottom: 104px; }
+
+  .nav-item4_mob {
+    margin-bottom: 300px; }
+
+  .fb_mobile {
+    display: inline-block; }
+
+  .mobile_social {
+    margin-bottom: 31px; } }
 
 /*# sourceMappingURL=style.css.map */

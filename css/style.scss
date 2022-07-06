@@ -209,6 +209,9 @@ header {
     }
     .item_mb {
       a {
+        &:hover{
+          opacity: 0.7;
+        }
         @include max-screen(991px) {
           font-family: '20 Kopeek Book';
           font-style: normal;
@@ -242,6 +245,9 @@ header {
     }
 
     a {
+      &:hover{
+        opacity: 0.7;
+      }
       @include max-screen(991px) {
         font-family: '20 Kopeek Book';
         font-style: normal;
@@ -257,6 +263,10 @@ header {
 
 .number {
   a {
+    &:hover{
+      opacity: 0.7;
+    }
+    text-decoration: none;
     display: inline-block;
     font-family: '20 Kopeek';
     font-style: normal;
@@ -268,6 +278,7 @@ header {
     padding: 7px 27px;
     border: 1px solid #FFFFFF;
     border-radius: 19px;
+
   }
 
   @include max-screen(991px) {
@@ -356,6 +367,9 @@ header {
       }
     }
     .btn{
+      &:hover{
+        opacity: 0.7;
+      }
       &:first-of-type {
         margin-right: 20px;
         @include max-screen(992px){

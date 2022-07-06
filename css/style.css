@@ -132,6 +132,9 @@ header {
   @media screen and (max-width: 991px) and (max-width: 991px) {
     .navbar-nav .mob_logo {
       margin-bottom: 103px; } }
+@media screen and (max-width: 991px) {
+    .navbar-nav .item_mb a:hover {
+      opacity: 0.7; } }
   @media screen and (max-width: 991px) and (max-width: 991px) {
     .navbar-nav .item_mb a {
       font-family: '20 Kopeek Book';
@@ -156,6 +159,8 @@ header {
 @media screen and (max-width: 756px) {
   .navbar-nav .item_bm_last {
     margin-bottom: 150px; } }
+.navbar-nav .item_bm_last a:hover {
+  opacity: 0.7; }
 @media screen and (max-width: 991px) {
   .navbar-nav .item_bm_last a {
     font-family: '20 Kopeek Book';
@@ -167,6 +172,7 @@ header {
     text-decoration: none; } }
 
 .number a {
+  text-decoration: none;
   display: inline-block;
   font-family: '20 Kopeek';
   font-style: normal;
@@ -177,6 +183,8 @@ header {
   padding: 7px 27px;
   border: 1px solid #FFFFFF;
   border-radius: 19px; }
+  .number a:hover {
+    opacity: 0.7; }
 @media screen and (max-width: 991px) {
   .number a, .number p {
     display: inline-block;
@@ -255,6 +263,8 @@ header {
       background: #FFFFFF;
       border-radius: 40px;
       padding: 19px 47px; }
+      .main_banner_section .main_text .btn:hover {
+        opacity: 0.7; }
       .main_banner_section .main_text .btn:first-of-type {
         margin-right: 20px; }
         @media screen and (max-width: 992px) {

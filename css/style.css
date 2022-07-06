@@ -298,34 +298,4 @@ header {
 .navbar-light .navbar-toggler-icon:checked {
   background: #005cbf; }
 
-.menu-btn {
-  display: block;
-  width: 50px;
-  height: 50px;
-  background: #adb5bd;
-  border-radius: 50%;
-  position: relative; }
-
-.menu-btn span, .menu-btn span:before, .menu-btn span:after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -10px;
-  margin-top: -1px;
-  width: 20px;
-  height: 2px;
-  background-color: #000000; }
-
-.menu-btn span:before, .menu-btn span:after {
-  content: ''; }
-
-.menu-btn span:before {
-  transform: translateY(-5px); }
-
-.menu-btn span:after {
-  transform: translateY(5px); }
-
-.menu-btn_active span:before {
-  transform: rotate(35deg); }
-
 /*# sourceMappingURL=style.css.map */

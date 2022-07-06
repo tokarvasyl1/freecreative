@@ -1,7 +1,10 @@
 @import "font.css";
-@import "adaptive.css";
 
-
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 
 .main_banner {
@@ -59,14 +62,71 @@ header {
     line-height: 19px;
     color: #FFFFFF;
   }
+
+  .collapse {
+    .navbar-nav {
+
+    }
+  }
+
 }
 
 .navbar-nav {
+  @include max-screen(991px) {
+    height: 100vh;
+    margin-top: 40px;
+    .mob_logo {
+      @include max-screen(991px) {
+        margin-bottom: 103px;
+      }
+    }
+    .item_mb {
+      a {
+        @include max-screen(991px) {
+          font-family: '20 Kopeek Book';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 45px;
+          line-height: 100%;
+          color: #181818;
+          text-decoration: none;
+        }
+      }
+
+      @include max-screen(991px) {
+        margin-bottom: 35px;
+      }
+    }
+  }
+
   li {
     margin-left: 23px;
+    @include max-screen(991px) {
+      margin-left: 39px;
+    }
+  }
+
+  .item_bm_last {
+    @include max-screen(991px) {
+      margin-bottom: 350px;
+    }
+    @include max-screen(756px) {
+      margin-bottom: 150px;
+    }
+
+    a {
+      @include max-screen(991px) {
+        font-family: '20 Kopeek Book';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 100%;
+        color: #181818;
+        text-decoration: none;
+      }
+    }
   }
 }
-
 
 .number {
   a {
@@ -82,33 +142,47 @@ header {
     border: 1px solid #FFFFFF;
     border-radius: 19px;
   }
+
+  @include max-screen(991px) {
+    a, p {
+      display: inline-block;
+      font-family: '20 Kopeek Book';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 110%;
+      color: #181818;
+      padding: 0;
+      border: none;
+    }
+  }
 }
 
 
-
-
-
-
-.main_banner_section{
+.main_banner_section {
   position: relative;
-  .main_text{
+
+  .main_text {
     position: absolute;
     top: 344px;
     width: 100%;
     z-index: 1;
-    h1{
+
+    h1 {
       font-family: '20 Kopeek Book';
       font-size: 55px;
       line-height: 100%;
       color: #181818;
     }
-    h2{
+
+    h2 {
       font-family: '20 Kopeek Book';
       font-size: 34px;
       line-height: 110%;
       color: #181818;
     }
-    a{
+
+    a {
       font-family: '20 Kopeek';
       font-style: normal;
       font-weight: 400;
@@ -123,5 +197,37 @@ header {
     }
   }
 }
+
+
+.navbar-collapse {
+  @include max-screen(991px) {
+    background: #E5E5E5;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  @include max-screen(991px) {
+    z-index: 1;
+  }
+}
+
+.mobile_social {
+  @include max-screen(991px) {
+    margin-bottom: 30px;
+  }
+
+  li:last-of-type {
+    @include max-screen(991px) {
+      margin-left: 18px;
+    }
+  }
+}
+
+
+
 
 

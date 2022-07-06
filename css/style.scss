@@ -157,48 +157,6 @@ header {
     }
   }
 }
-
-
-.main_banner_section {
-  position: relative;
-
-  .main_text {
-    position: absolute;
-    top: 344px;
-    width: 100%;
-    z-index: 1;
-
-    h1 {
-      font-family: '20 Kopeek Book';
-      font-size: 55px;
-      line-height: 100%;
-      color: #181818;
-    }
-
-    h2 {
-      font-family: '20 Kopeek Book';
-      font-size: 34px;
-      line-height: 110%;
-      color: #181818;
-    }
-
-    a {
-      font-family: '20 Kopeek';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 140%;
-      color: #181818;
-      text-decoration: none;
-
-      padding: 23px 47px;
-      background: #FFFFFF;
-      border-radius: 40px;
-    }
-  }
-}
-
-
 .navbar-collapse {
   @include max-screen(991px) {
     background: #E5E5E5;
@@ -226,6 +184,66 @@ header {
     }
   }
 }
+
+.main_banner_section {
+  position: relative;
+
+  .main_text {
+    position: absolute;
+    top: 344px;
+    width: 100%;
+    z-index: 1;
+
+    h1 {
+      font-family: '20 Kopeek Book';
+      font-size: 55px;
+      line-height: 100%;
+      color: #181818;
+      @include max-screen(992px){
+        font-size: 45px;
+      }
+      @include max-screen(576px){
+        font-size: 30px;
+      }
+    }
+
+    h2 {
+      font-family: '20 Kopeek Book';
+      font-size: 34px;
+      line-height: 110%;
+      color: #181818;
+      @include max-screen(992px){
+        font-size: 26px;
+      }
+      @include max-screen(576px){
+        font-size: 20px;
+      }
+    }
+
+    a {
+      font-family: '20 Kopeek';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #181818;
+      text-decoration: none;
+
+      padding: 23px 47px;
+      background: #FFFFFF;
+      border-radius: 40px;
+    }
+    @include max-screen(992px){
+      font-size: 16px;
+    }
+    @include max-screen(576px){
+      font-size: 15px;
+    }
+  }
+}
+
+
+
 
 
 

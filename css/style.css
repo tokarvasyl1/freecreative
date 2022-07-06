@@ -100,35 +100,6 @@ header {
     padding: 0;
     border: none; } }
 
-.main_banner_section {
-  position: relative; }
-  .main_banner_section .main_text {
-    position: absolute;
-    top: 344px;
-    width: 100%;
-    z-index: 1; }
-    .main_banner_section .main_text h1 {
-      font-family: '20 Kopeek Book';
-      font-size: 55px;
-      line-height: 100%;
-      color: #181818; }
-    .main_banner_section .main_text h2 {
-      font-family: '20 Kopeek Book';
-      font-size: 34px;
-      line-height: 110%;
-      color: #181818; }
-    .main_banner_section .main_text a {
-      font-family: '20 Kopeek';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 140%;
-      color: #181818;
-      text-decoration: none;
-      padding: 23px 47px;
-      background: #FFFFFF;
-      border-radius: 40px; }
-
 @media screen and (max-width: 991px) {
   .navbar-collapse {
     background: #E5E5E5;
@@ -147,5 +118,52 @@ header {
 @media screen and (max-width: 991px) {
   .mobile_social li:last-of-type {
     margin-left: 18px; } }
+
+.main_banner_section {
+  position: relative; }
+  .main_banner_section .main_text {
+    position: absolute;
+    top: 344px;
+    width: 100%;
+    z-index: 1; }
+    .main_banner_section .main_text h1 {
+      font-family: '20 Kopeek Book';
+      font-size: 55px;
+      line-height: 100%;
+      color: #181818; }
+      @media screen and (max-width: 992px) {
+        .main_banner_section .main_text h1 {
+          font-size: 45px; } }
+      @media screen and (max-width: 576px) {
+        .main_banner_section .main_text h1 {
+          font-size: 30px; } }
+    .main_banner_section .main_text h2 {
+      font-family: '20 Kopeek Book';
+      font-size: 34px;
+      line-height: 110%;
+      color: #181818; }
+      @media screen and (max-width: 992px) {
+        .main_banner_section .main_text h2 {
+          font-size: 26px; } }
+      @media screen and (max-width: 576px) {
+        .main_banner_section .main_text h2 {
+          font-size: 20px; } }
+    .main_banner_section .main_text a {
+      font-family: '20 Kopeek';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #181818;
+      text-decoration: none;
+      padding: 23px 47px;
+      background: #FFFFFF;
+      border-radius: 40px; }
+    @media screen and (max-width: 992px) {
+      .main_banner_section .main_text {
+        font-size: 16px; } }
+    @media screen and (max-width: 576px) {
+      .main_banner_section .main_text {
+        font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

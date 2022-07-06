@@ -1,0 +1,87 @@
+@media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    background: #E5E5E5;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navbar-nav {
+    height: 100vh;
+    margin-top: 40px;
+
+    .mob_logo {
+      margin-bottom: 103px;
+    }
+
+    .item_mb {
+      margin-bottom: 35px;
+
+      a {
+        font-family: '20 Kopeek Book';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 100%;
+        color: #181818;
+        text-decoration: none;
+      }
+    }
+
+    .item_bm_last {
+      margin-bottom: 350px;
+
+      a {
+        font-family: '20 Kopeek Book';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 100%;
+        color: #181818;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .navbar-light .navbar-toggler {
+    z-index: 1;
+  }
+  .navbar-nav {
+    li {
+      margin-left: 39px;
+    }
+  }
+
+  .mobile_social {
+    margin-bottom: 30px;
+
+    li:last-of-type {
+      margin-left: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 756px) {
+  .navbar-nav {
+    .item_bm_last {
+      margin-bottom: 150px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .number {
+    a, p {
+      display: inline-block;
+      font-family: '20 Kopeek Book';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 110%;
+      color: #181818;
+      padding: 0;
+      border: none;
+    }
+  }
+}

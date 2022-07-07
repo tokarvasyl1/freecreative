@@ -315,6 +315,17 @@ header {
 }
 
 .mobile_social {
+  li:first-of-type img {
+    padding: 11.67px 14.51px 11.35px 15px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+  }
+  li:last-of-type img {
+    display: inline-block;
+    padding: 12.01px 11.03px 11.01px 12px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+  }
   @include max-screen(991px) {
     margin-bottom: 30px;
   }
@@ -436,7 +447,20 @@ header {
 }
 
 
+.fb{
+  img{
+    display: inline-block;
+    padding: 11.67px 14.51px 11.35px 15px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+  }
+}
 
-
-
-
+.inst{
+  img{
+    display: inline-block;
+    padding: 12.01px 11.03px 11.01px 12px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+  }
+}

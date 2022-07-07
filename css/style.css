@@ -211,6 +211,15 @@ header {
     position: absolute;
     right: 0; } }
 
+.mobile_social li:first-of-type img {
+  padding: 11.67px 14.51px 11.35px 15px;
+  border: 1.5px solid black;
+  border-radius: 50%; }
+.mobile_social li:last-of-type img {
+  display: inline-block;
+  padding: 12.01px 11.03px 11.01px 12px;
+  border: 1.5px solid black;
+  border-radius: 50%; }
 @media screen and (max-width: 991px) {
   .mobile_social {
     margin-bottom: 30px; } }
@@ -307,5 +316,17 @@ header {
 
 .navbar-light .navbar-toggler-icon:checked {
   background: #005cbf; }
+
+.fb img {
+  display: inline-block;
+  padding: 11.67px 14.51px 11.35px 15px;
+  border: 1.5px solid white;
+  border-radius: 50%; }
+
+.inst img {
+  display: inline-block;
+  padding: 12.01px 11.03px 11.01px 12px;
+  border: 1.5px solid white;
+  border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */
